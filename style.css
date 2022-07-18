@@ -50,6 +50,10 @@ a {
     background-color: #ddd6cc;
     flex: 3;
 }
+
+.maincontent > section > article {
+    margin: 0 2rem;
+}
 /* Capire come raggruppare */
 .maincontent > section > article > h3 {
     margin: 2rem 0;
@@ -72,10 +76,12 @@ a {
 
 .maincontent > aside > h2 {
     margin-top: 2rem;
+    margin-left: 0.5rem;
 }
 
 .maincontent > aside > div {
     margin-top: 2rem;
+    margin-left: 0.5rem;
 }
 
 .maincontent > aside > div > a {
