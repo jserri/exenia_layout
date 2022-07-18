@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: #000;
+    font-weight: bolder;
+}
+
+.topheader {
+    background: orange;
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    padding: 1rem;
+    margin: 5px;
+}
+
+.topheader > div {
+    margin-left: 2rem;
+}
+
+.navbar {
+    background-color: #9c5d00;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    /* height: 3rem (problema)*/ 
+}
+
+.navbar > a {
+    margin-left: 2px;
+    background: #ffbf68;
+    padding: 1rem;
+}
+
+.navbar > a:hover {
+    color: #9c5d00;
+}
+
+.maincontent {
+    display: flex;
+    margin: 5px;
+    column-gap: 1rem;
+}
+
+.maincontent > section {
+    background-color: #ddd6cc;
+    flex: 3;
+}
+/* Capire come raggruppare */
+.maincontent > section > article > h3 {
+    margin: 2rem 0;
+}
+
+.maincontent > section > article > h3 + p {
+    margin: 2rem 0;
+}
+
+.maincontent > section > article > h4 {
+    margin: 2rem 0;
+}
+
+.maincontent > aside {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #c57600;
+}
+
+.maincontent > aside > h2 {
+    margin-top: 2rem;
+}
+
+.maincontent > aside > div {
+    margin-top: 2rem;
+}
+
+.maincontent > aside > div > a {
+    background: #ffbf68;
+    padding: 0.5rem;
+}
+
+.maincontent > aside > div > a:hover {
+    color: #c57600;
+}
+
+.botfooter {
+    display: flex;
+    margin: 5px;
+}
+
+.botfooter > div {
+    background-color: #4b4a48;
+    color: white;
+    width: 100vw;
+    text-align: center;
+    padding: 1rem;
+}
+
+.botfooter > div > p > a {
+    color: #fff;
+}
+
+.botfooter > div > p > a:hover {
+    color: #9c5d00;
+}
